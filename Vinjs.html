@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Vinoth Javasript Hands On</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -15,6 +14,10 @@
 <button class="btn btn-primary btn-sm"
         onclick="document.getElementById('demo').innerHTML = Date()">Click Me</button>
 <p class="text-success mt-2"  id="demo"></p>
+    <p class="text-info">Change font size</p>
+    <button class="btn btn-primary btn-sm"
+            onclick="document.getElementById('fontSize').style.fontSize='40px'">Click to Resize</button>
+    <p style="font-size: 25px" id="fontSize">Am changing</p>
 </div>
 <script src="Vinjs.js"></script>
 </body>
