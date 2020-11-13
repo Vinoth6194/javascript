@@ -25,3 +25,6 @@ function myMul() {
 function myDiv() {
     document.getElementById("div").innerHTML = 12/3;
 }
+function myModulus() {
+    document.getElementById("mod").innerHTML = 13%3;
+}
