@@ -47,3 +47,6 @@ function myFirstFunction() {
    return "Am a return keyword value";
 }
 document.getElementById("fun_one").innerHTML = myFirstFunction()
+function eventFunction(a,b){
+    document.getElementById('event'). innerHTML = a**b;
+}
