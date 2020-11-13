@@ -5,3 +5,6 @@ function vinoth(){
 function myAlert() {
     alert("Alerted from external js");
 }
+function myPrint()  {
+    window.print();
+}
