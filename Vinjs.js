@@ -37,7 +37,7 @@ function myInc() {
 function myDec() {
     var x = 12;
     x--;
-    z=x;
+    var z=x;
     document.getElementById("dec").innerHTML = z;
 }
 function myExpo() {
@@ -47,3 +47,6 @@ function myFirstFunction() {
    return "Am a return keyword value";
 }
 document.getElementById("fun_one").innerHTML = myFirstFunction()
+function myAddEvent(a,b) {
+    document.getElementById("addEvent").innerHTML = a+b;
+}
