@@ -19,3 +19,9 @@ function myAdd() {
 function mySub() {
     document.getElementById("sub").innerHTML = 12-3;
 }
+function myMul() {
+    document.getElementById("mul").innerHTML = 12*3;
+}
+function myDiv() {
+    document.getElementById("div").innerHTML = 12/3;
+}
