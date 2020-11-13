@@ -43,3 +43,4 @@ function myDec() {
 function myExpo() {
     document.getElementById("expo").innerHTML = 5**2;
 }
+var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
