@@ -34,3 +34,9 @@ function myInc() {
     z=x;
     document.getElementById("inc").innerHTML = z;
 }
+function myDec() {
+    var x = 12;
+    x--;
+    z=x;
+    document.getElementById("dec").innerHTML = z;
+}
