@@ -8,3 +8,9 @@ function myAlert() {
 function myPrint()  {
     window.print();
 }
+function varDisplay() {
+    var myvar;
+    myvar = "Vinothkumar";
+    document.getElementById("var").innerHTML = "From variable " + " " +myvar;
+
+}
