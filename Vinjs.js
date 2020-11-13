@@ -55,3 +55,9 @@ function operator() {
 }
 document.getElementById("op").innerHTML = operator;
 document.getElementById("op1").innerHTML = operator();
+function locFun(){
+    var loc_var = "am a local variable";
+    document.getElementById("loc").innerHTML =loc_var;
+}
+locFun();
+document.getElementById("loc_un").innerHTML =typeof (loc_var);
