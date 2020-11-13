@@ -12,5 +12,7 @@ function varDisplay() {
     var myvar;
     myvar = "Vinothkumar";
     document.getElementById("var").innerHTML = "From variable " + " " +myvar;
-
+}
+function myAdd() {
+    document.getElementById("add").innerHTML = 3+3;
 }
