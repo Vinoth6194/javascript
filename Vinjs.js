@@ -43,3 +43,7 @@ function myDec() {
 function myExpo() {
     document.getElementById("expo").innerHTML = 5**2;
 }
+function myFirstFunction() {
+   return "Am a return keyword value";
+}
+document.getElementById("fun_one").innerHTML = myFirstFunction()
