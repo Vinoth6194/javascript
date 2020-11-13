@@ -40,3 +40,6 @@ function myDec() {
     z=x;
     document.getElementById("dec").innerHTML = z;
 }
+function myExpo() {
+    document.getElementById("expo").innerHTML = 5**2;
+}
