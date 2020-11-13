@@ -50,3 +50,8 @@ document.getElementById("fun_one").innerHTML = myFirstFunction()
 function eventFunction(a,b){
     document.getElementById('event'). innerHTML = a**b;
 }
+function operator() {
+    return "Am a () operator to call the function";
+}
+document.getElementById("op").innerHTML = operator;
+document.getElementById("op1").innerHTML = operator();
