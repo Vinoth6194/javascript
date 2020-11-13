@@ -16,3 +16,6 @@ function varDisplay() {
 function myAdd() {
     document.getElementById("add").innerHTML = 3+3;
 }
+function mySub() {
+    document.getElementById("sub").innerHTML = 12-3;
+}
