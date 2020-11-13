@@ -28,3 +28,9 @@ function myDiv() {
 function myModulus() {
     document.getElementById("mod").innerHTML = 13%3;
 }
+function myInc() {
+    var x = 12;
+    x++;
+    z=x;
+    document.getElementById("inc").innerHTML = z;
+}
