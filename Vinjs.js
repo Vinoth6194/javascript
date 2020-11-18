@@ -75,3 +75,7 @@ document.getElementById("vobjage").innerHTML = vinObj.age;
 document.getElementById("vobjdes").innerHTML = vinObj.designation;
 document.getElementById("vobjplace").innerHTML = vinObj.place;
 document.getElementById("vobjfun").innerHTML = vinObj.fullname();
+function changeEvent (){
+    var x = document.getElementById("mySelect").value;
+    document.getElementById("selectValue").innerHTML = "Your Selecction is  " + x;
+}

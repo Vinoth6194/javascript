@@ -99,7 +99,18 @@
     <p id="vobjdes"></p>
     <p id="vobjplace"></p>
     <p id="vobjfun"></p>
-
+    <hr>
+    <p class="text-info">Events</p>
+    <div class="container">
+        <p class="text-info">onChange event</p>
+        <select id="mySelect" onchange="changeEvent()" class="form-group form-control">
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Mercedez">Mercedez</option>
+            <option value="Ferrari">Ferrari</option>
+        </select>
+        <p id="selectValue" class="text-success">I will disapper once you select the dropdown</p>
+    </div>
 </div>
 <script src="Vinjs.js"></script>
 </body>
