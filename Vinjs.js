@@ -120,3 +120,6 @@ document.getElementById("lastInd").innerHTML = "Last position for the text name 
 document.getElementById("slicedText").innerHTML = "Sliced text is" + "-: "+searchText.slice(2,13);
 document.getElementById("subStringText").innerHTML = "Substring  text is" + "-: "+searchText.substring(6,11);
 document.getElementById("subStrText").innerHTML = "Substr     text is" + "-: "+searchText.substr(6,2);
+var newSearchText = searchText.replace("Vinothkumar","Selvan");
+document.getElementById("oldText").innerHTML ="Old text is :" +searchText;
+document.getElementById("replText").innerHTML = "Replaced Text is :"+ newSearchText;
