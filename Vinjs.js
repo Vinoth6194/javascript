@@ -79,3 +79,13 @@ function changeEvent (){
     var x = document.getElementById("mySelect").value;
     document.getElementById("selectValue").innerHTML = "Your Selecction is  " + x;
 }
+function myclickEvent() {
+    // console.log("button clicked");
+    // alert("Button Clicked");
+   document.getElementById("clickValue").innerHTML = "Hai! You are welcome";
+}
+// function myclickEvent_two() {
+//     // console.log("button clicked");
+//     // alert("Button Clicked");
+//     this.innerHTML = "Hai! You are welcome";
+// }
