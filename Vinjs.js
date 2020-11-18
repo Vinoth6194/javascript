@@ -95,3 +95,11 @@ function mouseOver(x) {
 function mouseOut(x) {
     x.style.color = "violet";
 }
+function myKeyUp() {
+    var x = document.getElementById("input").value;
+    console.log(x);
+    document.getElementById("up").innerHTML = x;
+}
+function myKeyDown() {
+    var x  = document.getElementById("input").style.backgroundColor = "green";
+}
