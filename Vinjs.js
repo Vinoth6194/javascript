@@ -123,3 +123,5 @@ document.getElementById("subStrText").innerHTML = "Substr     text is" + "-: "+s
 var newSearchText = searchText.replace("Vinothkumar","Selvan");
 document.getElementById("oldText").innerHTML ="Old text is :" +searchText;
 document.getElementById("replText").innerHTML = "Replaced Text is :"+ newSearchText;
+document.getElementById("uppText").innerHTML = "Uppercase is :"+ searchText.toUpperCase();
+document.getElementById("lowText").innerHTML = "Lowercase is :"+ searchText.toLowerCase();
