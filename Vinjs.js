@@ -111,6 +111,10 @@ document.getElementById("strName").innerHTML = "String is :" + myString;
 document.getElementById("strLen").innerHTML = "String Length is :" + myString.length;
 // document.getElementById("squote").innerHTML = "Virat \'The King\' Kohli";
 document.getElementById("esseq").innerHTML = "Virat \b Kohli " +" ,"+ "Virat \'The King \'Kohli" + ","+"look \f up";
-
-
+document.getElementById("strName").innerHTML = "String is :" + myString;
+document.getElementById("strLen").innerHTML = "String Length is :" + myString.length;
+var searchText = "Your Name: Name is Vinothkumar S";
+document.getElementById("search-text").innerHTML = searchText;
+document.getElementById("firInd").innerHTML = "First position for the text name is" + " "+searchText.indexOf("Name", 6);
+document.getElementById("lastInd").innerHTML = "Last position for the text name is" + " "+searchText.lastIndexOf("Name", 2);
 
