@@ -130,3 +130,4 @@ var str2 = "Night";
 document.getElementById("concatText").innerHTML = str1.concat(" ",str2);
 document.getElementById("charAt").innerHTML = "Character at the given position in the " +str1+ " is -" + str1.charAt(0);
 document.getElementById("charCode").innerHTML = "Character code at the given position in the " +str1+ " is -" + str1.charCodeAt(0);
+document.getElementById("strArr").innerHTML = str1.split("");
