@@ -134,3 +134,8 @@ document.getElementById("strArr").innerHTML = str1.split("");
 var x = 100, y =NaN, z = x+y
 // document.getElementById("noNum").innerHTML = 100/NaN;
 document.getElementById("noNum").innerHTML = z;
+var myNum = 62;
+document.getElementById("bin").innerHTML = "Binary for "+ myNum +" is "+ myNum.toString(2);
+document.getElementById("hex").innerHTML = "Hexadecimal for "+ myNum +" is "+ myNum.toString(16);
+document.getElementById("oct").innerHTML = "Octal for "+ myNum +" is "+ myNum.toString(8);
+document.getElementById("deci").innerHTML = "Decimal and Default for "+ myNum +" is "+ myNum.toString(10);
