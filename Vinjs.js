@@ -109,3 +109,8 @@ function fullLoad (){
 var myString = "Vinothkumar Selvan";
 document.getElementById("strName").innerHTML = "String is :" + myString;
 document.getElementById("strLen").innerHTML = "String Length is :" + myString.length;
+// document.getElementById("squote").innerHTML = "Virat \'The King\' Kohli";
+document.getElementById("esseq").innerHTML = "Virat \b Kohli " +" ,"+ "Virat \'The King \'Kohli" + ","+"look \f up";
+
+
+
