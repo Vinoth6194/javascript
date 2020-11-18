@@ -131,3 +131,6 @@ document.getElementById("concatText").innerHTML = str1.concat(" ",str2);
 document.getElementById("charAt").innerHTML = "Character at the given position in the " +str1+ " is -" + str1.charAt(0);
 document.getElementById("charCode").innerHTML = "Character code at the given position in the " +str1+ " is -" + str1.charCodeAt(0);
 document.getElementById("strArr").innerHTML = str1.split("");
+var x = 100, y =NaN, z = x+y
+// document.getElementById("noNum").innerHTML = 100/NaN;
+document.getElementById("noNum").innerHTML = z;
