@@ -61,3 +61,17 @@ function locFun(){
 }
 locFun();
 document.getElementById("loc_un").innerHTML =typeof (loc_var);
+var vinObj = {
+    name:"vinothkumar S",
+    age:26,
+    designation:"Software Engineer",
+    place:"Bengaluru",
+    fullname: function () {
+        return "Am an object function";
+    }
+}
+document.getElementById("vobjname").innerHTML = vinObj.name;
+document.getElementById("vobjage").innerHTML = vinObj.age;
+document.getElementById("vobjdes").innerHTML = vinObj.designation;
+document.getElementById("vobjplace").innerHTML = vinObj.place;
+document.getElementById("vobjfun").innerHTML = vinObj.fullname();
