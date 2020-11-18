@@ -56,7 +56,7 @@ function operator() {
 document.getElementById("op").innerHTML = operator;
 document.getElementById("op1").innerHTML = operator();
 function locFun(){
-    var loc_var = "am a local variable";
+    const loc_var = "am a local variable";
     document.getElementById("loc").innerHTML =loc_var;
 }
 locFun();
@@ -128,3 +128,5 @@ document.getElementById("lowText").innerHTML = "Lowercase is :"+ searchText.toLo
 var str1 = "Good";
 var str2 = "Night";
 document.getElementById("concatText").innerHTML = str1.concat(" ",str2);
+document.getElementById("charAt").innerHTML = "Character at the given position in the " +str1+ " is -" + str1.charAt(0);
+document.getElementById("charCode").innerHTML = "Character code at the given position in the " +str1+ " is -" + str1.charCodeAt(0);
