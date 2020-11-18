@@ -103,3 +103,6 @@ function myKeyUp() {
 function myKeyDown() {
     var x  = document.getElementById("input").style.backgroundColor = "green";
 }
+function fullLoad (){
+    alert("Page is loaded. Good to go");
+}
