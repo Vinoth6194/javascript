@@ -89,3 +89,9 @@ function myclickEvent() {
 //     // alert("Button Clicked");
 //     this.innerHTML = "Hai! You are welcome";
 // }
+function mouseOver(x) {
+    x.style.color = "red";
+}
+function mouseOut(x) {
+    x.style.color = "violet";
+}
