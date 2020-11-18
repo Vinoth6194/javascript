@@ -106,3 +106,6 @@ function myKeyDown() {
 function fullLoad (){
     alert("Page is loaded. Good to go");
 }
+var myString = "Vinothkumar Selvan";
+document.getElementById("strName").innerHTML = "String is :" + myString;
+document.getElementById("strLen").innerHTML = "String Length is :" + myString.length;
