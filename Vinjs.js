@@ -159,6 +159,7 @@ document.getElementById("parseInt").innerHTML = "Parse Int " + parseInt(aa) +
     " Decimals "+parseInt(bb) +
     " String "+ parseInt(dd)+
 " Num and String "+ parseInt(ee);
+document.getElementById("parseFloat").innerHTML = "Parse Float " + parseFloat(bb);
 
 
 
