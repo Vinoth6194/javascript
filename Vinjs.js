@@ -145,6 +145,8 @@ document.getElementById("numToStr").innerHTML = "Number to String is " + xx.toSt
 // alert("Num");
 document.getElementById("numToExp").innerHTML = "Number to Exponential is " + yy.toExponential(2);
 var zz = 23.25;
+var ccc = "Vinothkumar S";
 document.getElementById("numToFix").innerHTML = "Number to Fixes is " + zz.toFixed(3);
 console.log(typeof zz.toString());
 document.getElementById("numToPrec").innerHTML = "Number to Precision is " + zz.toPrecision(3);
+document.getElementById("numToValof").innerHTML = "Value of method for Num:" + zz.valueOf() +" " + "Value of for String is " + ccc.valueOf();
