@@ -167,5 +167,18 @@ document.getElementById("negInf").innerHTML = Number.NEGATIVE_INFINITY;
 document.getElementById("NAN").innerHTML = Number.NaN;
 var xe = Number.EPSILON;
 document.getElementById("Eps").innerHTML = xe;
-
-
+var myArray = ["Vinothkumar", "Selvan","Santhi","Kiruthika"];
+document.getElementById("myArr").innerHTML = myArray;
+myArray[4]= "Vijay";
+document.getElementById("myNewArr").innerHTML = myArray;
+myArray[0] = "Vinothkumar S";
+document.getElementById("myModArr").innerHTML = myArray;
+document.getElementById("myModArrLen").innerHTML = "Length  of the modified array is " + myArray.length;
+document.getElementById("myModArrSort").innerHTML = "Sorted array is " + myArray.sort();
+document.getElementById("myModFirst").innerHTML = "First element is " + myArray[0];
+document.getElementById("myModLast").innerHTML = "Last element is " + myArray[myArray.length-1];;
+myArray.push("master");
+myArray[myArray.length] = "Bhavani"
+document.getElementById("myupdArr").innerHTML = myArray;
+console.log(typeof myArray);
+console.log(Array.isArray(myArray));
