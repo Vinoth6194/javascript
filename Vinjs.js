@@ -202,5 +202,12 @@ document.getElementById("oriArray").innerHTML = "Original Array is " + players;
 function addItems (){
     players.splice(2,0,"Gayle","Smith");
     document.getElementById("updArray").innerHTML = "Updated Array is " + players;
+}
+document.getElementById("beforeConcat").innerHTML = "Before array concatenation " + players;
+function myConcatenation(){
+    var newPlayers = ["Smudge","King","Captain Cool","Alien"];
+   var afterConCat =  players.concat(newPlayers,"Hardik");
+    document.getElementById("afterConcat").innerHTML = "After array concatenation " + afterConCat.join("->");
 
 }
+
