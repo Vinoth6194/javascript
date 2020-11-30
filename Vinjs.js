@@ -139,3 +139,8 @@ document.getElementById("bin").innerHTML = "Binary for "+ myNum +" is "+ myNum.t
 document.getElementById("hex").innerHTML = "Hexadecimal for "+ myNum +" is "+ myNum.toString(16);
 document.getElementById("oct").innerHTML = "Octal for "+ myNum +" is "+ myNum.toString(8);
 document.getElementById("deci").innerHTML = "Decimal and Default for "+ myNum +" is "+ myNum.toString(10);
+var xx = 123;
+var yy = 23.23;
+document.getElementById("numToStr").innerHTML = "Number to String is " + xx.toString();
+// alert("Num");
+document.getElementById("numToExp").innerHTML = "Number to Exponential is " + yy.toExponential(2);
