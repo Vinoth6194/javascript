@@ -160,6 +160,12 @@ document.getElementById("parseInt").innerHTML = "Parse Int " + parseInt(aa) +
     " String "+ parseInt(dd)+
 " Num and String "+ parseInt(ee);
 document.getElementById("parseFloat").innerHTML = "Parse Float " + parseFloat(bb);
-
+document.getElementById("maxValue").innerHTML = Number.MAX_VALUE;
+document.getElementById("minValue").innerHTML = Number.MIN_VALUE;
+document.getElementById("posInf").innerHTML = Number.POSITIVE_INFINITY;
+document.getElementById("negInf").innerHTML = Number.NEGATIVE_INFINITY;
+document.getElementById("NAN").innerHTML = Number.NaN;
+var xe = Number.EPSILON;
+document.getElementById("Eps").innerHTML = xe;
 
 
