@@ -151,4 +151,14 @@ console.log(typeof zz.toString());
 document.getElementById("numToPrec").innerHTML = "Number to Precision is " + zz.toPrecision(3);
 document.getElementById("numToValof").innerHTML = "Value of method for Num:" + zz.valueOf() +" " + "Value of for String is " + ccc.valueOf();
 var aa = "23";
+var bb = "12.232323";
+var dd = "Hi";
+var ee = "10 years";
 document.getElementById("Number").innerHTML = "Number Method is " + Number(aa) + " for characters "+ Number(ccc);
+document.getElementById("parseInt").innerHTML = "Parse Int " + parseInt(aa) +
+    " Decimals "+parseInt(bb) +
+    " String "+ parseInt(dd)+
+" Num and String "+ parseInt(ee);
+
+
+
