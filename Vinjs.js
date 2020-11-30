@@ -144,3 +144,7 @@ var yy = 23.23;
 document.getElementById("numToStr").innerHTML = "Number to String is " + xx.toString();
 // alert("Num");
 document.getElementById("numToExp").innerHTML = "Number to Exponential is " + yy.toExponential(2);
+var zz = 23.25;
+document.getElementById("numToFix").innerHTML = "Number to Fixes is " + zz.toFixed(3);
+console.log(typeof zz.toString());
+document.getElementById("numToPrec").innerHTML = "Number to Precision is " + zz.toPrecision(3);
