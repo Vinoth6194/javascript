@@ -150,3 +150,5 @@ document.getElementById("numToFix").innerHTML = "Number to Fixes is " + zz.toFix
 console.log(typeof zz.toString());
 document.getElementById("numToPrec").innerHTML = "Number to Precision is " + zz.toPrecision(3);
 document.getElementById("numToValof").innerHTML = "Value of method for Num:" + zz.valueOf() +" " + "Value of for String is " + ccc.valueOf();
+var aa = "23";
+document.getElementById("Number").innerHTML = "Number Method is " + Number(aa) + " for characters "+ Number(ccc);
