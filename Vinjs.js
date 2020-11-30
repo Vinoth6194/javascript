@@ -198,3 +198,9 @@ document.getElementById("shiftArray").innerHTML = "After shifting " + players;
 var unshiftItem = players.unshift("Baz");
 document.getElementById("unshiftItem").innerHTML = "Unshifted element is " + unshiftItem;
 document.getElementById("unshiftArray").innerHTML = "After unshifting " + players;
+document.getElementById("oriArray").innerHTML = "Original Array is " + players;
+function addItems (){
+    players.splice(2,0,"Gayle","Smith");
+    document.getElementById("updArray").innerHTML = "Updated Array is " + players;
+
+}
