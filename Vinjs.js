@@ -182,3 +182,5 @@ myArray[myArray.length] = "Bhavani"
 document.getElementById("myupdArr").innerHTML = myArray;
 console.log(typeof myArray);
 console.log(Array.isArray(myArray));
+document.getElementById("arrStr").innerHTML = "tostring ->" + myArray.toString();
+document.getElementById("arrJoin").innerHTML = "join ->" + myArray.join(' * ');
