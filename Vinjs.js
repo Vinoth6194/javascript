@@ -324,6 +324,11 @@ function forEachDisp(value,index, array){
 }
 demoArray.forEach(forEachDisp);
 document.getElementById("forEach").innerHTML = text;
-
-
+var mapArray = [2,6,1,7];
+var newMapArray = mapArray.map(myMap);
+function myMap (value,index,array){
+    return value;
+}
+document.getElementById("oriarrMap").innerText ="Original Array is " + mapArray;
+document.getElementById("newarrMap").innerText = "By mapping through the array "+newMapArray;
 
