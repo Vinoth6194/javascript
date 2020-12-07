@@ -386,4 +386,5 @@ function over18Index(value, index, array){
 document.getElementById("over18Ind").innerHTML = "First element's index of over 18 is "+firstOver18Ind;
 document.getElementById("date").innerHTML = "Today's date is" + new Date();
 document.getElementById("dateParams").innerHTML = "DOB is" + new Date(1994,10,6,12,00,00,00);
-document.getElementById("prevCen").innerHTML = "Previos Century is " + new Date(4,10,6,12,00,00,00);
+document.getElementById("prevCen").innerHTML = "Previous Century is " + new Date(4,10,6,12,00,00,00);
+document.getElementById("dataString").innerHTML = "Date from the given string is  " + new Date("April 18, 1999 12:00:00");
