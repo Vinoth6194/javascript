@@ -352,3 +352,10 @@ function myReduce (total,value,index, array){
 }
 document.getElementById("demoNum").innerText = "Array before reduce() is "+demoNum;
 document.getElementById("reduceArr").innerText = "Sum of the values in the array by reduce() is "+reduceArray;
+var numbers1 = [45, 4, 9, 16, 25];
+var sum = numbers1.reduceRight(myReduceRight);
+function myReduceRight(total,index,value,array){
+    return total+value;
+}
+document.getElementById("num1").innerText = "Array before reduceRight() is "+numbers1;
+document.getElementById("sum").innerText = "Array before reduceRight() is "+sum;
