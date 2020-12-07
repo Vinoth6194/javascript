@@ -210,4 +210,11 @@ function myConcatenation(){
     document.getElementById("afterConcat").innerHTML = "After array concatenation " + afterConCat.join("->");
 
 }
+var fruits =["apple","manog","grapes","citrus","pomogranate"];
+document.getElementById("befSli").innerHTML = "Before slicing :" + fruits;
+function mySlice(){
+    var newFruits = fruits.slice(2,4);
+    document.getElementById("aftSli").innerHTML = "After slicing :" + newFruits;
+}
+
 
