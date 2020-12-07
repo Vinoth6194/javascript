@@ -331,4 +331,10 @@ function myMap (value,index,array){
 }
 document.getElementById("oriarrMap").innerText ="Original Array is " + mapArray;
 document.getElementById("newarrMap").innerText = "By mapping through the array "+newMapArray;
-
+var ages = [52,25,11,66,8,4,88];
+var filterAges = ages.filter(myFilter);
+function myFilter (value, index, array){
+    return value > 11;
+}
+document.getElementById("ages").innerText = "Array values are " + ages;
+document.getElementById("filArr").innerText = "Filtered values above 11 are "+filterAges;
