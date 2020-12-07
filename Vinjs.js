@@ -274,7 +274,7 @@ function myObjArrDis(){
 }
 myObjArrDis();
 
-function objArrSortAge(){
+function objArrSortAscAge(){
      myObjArr.sort(function (a,b) {return a.age-b.age});
         document.getElementById("objArrNum").innerHTML ="Sorting obj arrays by Age in Ascending order " +"<br>"+ myObjArr[0].name +" "+ myObjArr[0].age +"<br>"+
             myObjArr[1].name +" "+ myObjArr[1].age +"<br>"+myObjArr[2].name +" "+ myObjArr[2].age +"<br>"+myObjArr[3].name +" "+ myObjArr[3].age +"<br>";
