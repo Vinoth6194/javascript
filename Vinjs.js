@@ -340,3 +340,15 @@ document.getElementById("ages").innerText = "Array values are " + ages;
 document.getElementById("filArr").innerText = "Filtered values above 11 are "+filterAges.sort(function (a,b) {
     return a-b;
 });
+var demoNum = [1,2,3,4,5];
+var reduceArray = demoNum.reduce(myReduce);
+function myReduce (total,value,index, array){
+    //return total+value;
+    console.log(total);
+    console.log(value);
+    console.log(index);
+    console.log(array);
+    return total+value;
+}
+document.getElementById("demoNum").innerText = "Array before reduce() is "+demoNum;
+document.getElementById("reduceArr").innerText = "Sum of the values in the array by reduce() is "+reduceArray;
