@@ -236,3 +236,8 @@ function numDesSort()
     document.getElementById("numDesSort").innerHTML = "Descending order of the number array " +points.sort(function (a,b){return b-a});;
 
 }
+function numRanSort()
+{
+    document.getElementById("numRanSort").innerHTML = "Random sorting of the number array " +points.sort(function (a,b){return 0.5-Math.random()});
+
+}
