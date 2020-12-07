@@ -285,3 +285,18 @@ function objArrSortDescAge(){
     document.getElementById("objArrNumDesc").innerHTML ="Sorting obj arrays by Age in Descending order " +"<br>"+ myObjArr[0].name +" "+ myObjArr[0].age +"<br>"+
         myObjArr[1].name +" "+ myObjArr[1].age +"<br>"+myObjArr[2].name +" "+ myObjArr[2].age +"<br>"+myObjArr[3].name +" "+ myObjArr[3].age +"<br>";
 }
+myObjArrDis();
+
+function objArrNameSort(){
+    myObjArr.sort(function (a,b){
+        var x =a.name.toLowerCase();
+        var y = b.name.toLowerCase();
+        if(x>y){
+            return 1;
+        }if(x<y){
+            return -1;
+        }else return 0
+    });
+    document.getElementById("objArrNameSort").innerHTML ="Sorting obj arrays by Name in Alphabeical order " +"<br>"+ myObjArr[0].name +" "+ myObjArr[0].age +"<br>"+
+        myObjArr[1].name +" "+ myObjArr[1].age +"<br>"+myObjArr[2].name +" "+ myObjArr[2].age +"<br>"+myObjArr[3].name +" "+ myObjArr[3].age +"<br>";
+}
