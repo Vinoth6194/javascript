@@ -373,3 +373,9 @@ var searchArray = ["vinothkumar","vijay","kiru","gurmeet","kiru"];
 document.getElementById("arrIndex").innerHTML = "Index of the searched element is "+searchArray.indexOf("kiru",1);
 document.getElementById("lastarrIndex").innerHTML = "LastIndex of the searched element is "+searchArray.lastIndexOf("kiru",5);
 document.getElementById("searchArray").innerHTML = "Array to be searched  is "+searchArray;
+var numbers = [4, 9, 16, 55, 29];
+var firstOver18 = numbers.find(over18);
+function over18(value, index, array){
+    return value > 18;
+}
+document.getElementById("over18").innerHTML = firstOver18;
