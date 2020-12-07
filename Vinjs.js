@@ -369,3 +369,5 @@ function mySomeFunction(index,value, array){
     return value < 18;
 }
 document.getElementById("some").innerText = "Result of some() is ->"+someArray;
+var searchArray = ["vinothkumar","vijay","kiru","gurmeet","kiru"];
+document.getElementById("arrIndex").innerHTML = "Index of the searched element is "+searchArray.indexOf("kiru",1);
