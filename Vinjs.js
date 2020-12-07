@@ -359,3 +359,8 @@ function myReduceRight(total,index,value,array){
 }
 document.getElementById("num1").innerText = "Array before reduceRight() is "+numbers1;
 document.getElementById("sum").innerText = "Array before reduceRight() is "+sum;
+var everyArr = numbers1.every(myEveryFun);
+function myEveryFun(index,value,array){
+    return value > 25;
+}
+document.getElementById("every").innerText = "Result of every() is ->"+everyArr;
