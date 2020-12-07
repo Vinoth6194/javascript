@@ -364,3 +364,8 @@ function myEveryFun(index,value,array){
     return value > 25;
 }
 document.getElementById("every").innerText = "Result of every() is ->"+everyArr;
+var someArray = numbers1.some(mySomeFunction);
+function mySomeFunction(index,value, array){
+    return value < 18;
+}
+document.getElementById("some").innerText = "Result of some() is ->"+someArray;
