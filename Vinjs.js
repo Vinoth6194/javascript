@@ -254,3 +254,28 @@ function arrLHigValue(){
     }
     document.getElementById("arrHigVal").innerHTML =highValue(points);
 }
+var myObjArr = [
+    {
+        name:"Vinoth",age:26,
+    },
+    {
+        name:"Santhi",age:52,
+    },
+    {
+        name:"Selvan",age:60,
+    },
+    {
+        name:"Kiruthika",age:22,
+    }
+]
+function myObjArrDis(){
+    document.getElementById("defObjArr").innerHTML ="Default object array " +"<br>"+ myObjArr[0].name +" "+ myObjArr[0].age +"<br>"+
+        myObjArr[1].name +" "+ myObjArr[1].age +"<br>"+myObjArr[2].name +" "+ myObjArr[2].age +"<br>"+myObjArr[3].name +" "+ myObjArr[3].age +"<br>";
+}
+myObjArrDis();
+
+function objArrSortAge(){
+     myObjArr.sort(function (a,b) {return a.age-b.age});
+        document.getElementById("objArrNum").innerHTML ="Sorting obj arrays by Age in Ascending order " +"<br>"+ myObjArr[0].name +" "+ myObjArr[0].age +"<br>"+
+            myObjArr[1].name +" "+ myObjArr[1].age +"<br>"+myObjArr[2].name +" "+ myObjArr[2].age +"<br>"+myObjArr[3].name +" "+ myObjArr[3].age +"<br>";
+}
