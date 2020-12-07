@@ -314,3 +314,16 @@ function objArrNameRevSort(){
         myObjArr[1].name +" "+ myObjArr[1].age +"<br>"+myObjArr[2].name +" "+ myObjArr[2].age +"<br>"+myObjArr[3].name +" "+ myObjArr[3].age +"<br>";
 
 }
+var text= "";
+var demoArray = ["Ele 1","Ele 2","Ele 3","Ele 4"];
+function forEachDisp(value,index, array){
+    text = text+value + "<br>";
+    console.log(index);
+    console.log(array.join("***"));
+    // text = "Value is" + text+value +"<br>";
+}
+demoArray.forEach(forEachDisp);
+document.getElementById("forEach").innerHTML = text;
+
+
+
