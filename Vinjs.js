@@ -390,4 +390,5 @@ document.getElementById("prevCen").innerHTML = "Previous Century is " + new Date
 document.getElementById("dataString").innerHTML = "Date from the given string is  " + new Date("April 18, 1999 12:00:00");
 var d = new Date(100000000000);
 document.getElementById("dateMilli").innerHTML = "Date from the given milliseconds is  " + d;
-
+var utsc = new Date().toUTCString();
+document.getElementById("Utcs").innerHTML = "Date in UTCS is  " + utsc;
