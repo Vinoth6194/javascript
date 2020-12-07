@@ -210,11 +210,17 @@ function myConcatenation(){
     document.getElementById("afterConcat").innerHTML = "After array concatenation " + afterConCat.join("->");
 
 }
-var fruits =["apple","manog","grapes","citrus","pomogranate"];
+var fruits =["apple","mango","grapes","citrus","pomogranate"];
 document.getElementById("befSli").innerHTML = "Before slicing :" + fruits;
 function mySlice(){
     var newFruits = fruits.slice(2,4);
     document.getElementById("aftSli").innerHTML = "After slicing :" + newFruits;
 }
-
-
+document.getElementById("defArray").innerHTML = fruits;
+function asceSorting(){
+    document.getElementById("asceSort").innerHTML = "After Sorting : " +fruits.sort();
+}
+function descSorting(){
+    fruits.sort();
+    document.getElementById("descSort").innerHTML = "After Reverse Sorting : " +fruits.reverse();
+}
