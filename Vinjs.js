@@ -392,3 +392,5 @@ var d = new Date(100000000000);
 document.getElementById("dateMilli").innerHTML = "Date from the given milliseconds is  " + d;
 var utsc = new Date().toUTCString();
 document.getElementById("Utcs").innerHTML = "Date in UTCS is  " + utsc;
+var dateString = new Date().toDateString();
+document.getElementById("dateString").innerHTML = "Date in DateString is  " + dateString;
