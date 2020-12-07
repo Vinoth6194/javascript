@@ -378,4 +378,9 @@ var firstOver18 = numbers.find(over18);
 function over18(value, index, array){
     return value > 18;
 }
-document.getElementById("over18").innerHTML = firstOver18;
+document.getElementById("over18").innerHTML = "First element over 18 is "+firstOver18;
+var firstOver18Ind = numbers.findIndex(over18Index);
+function over18Index(value, index, array){
+    return value > 18;
+}
+document.getElementById("over18Ind").innerHTML = "First element's index of over 18 is "+firstOver18Ind;
