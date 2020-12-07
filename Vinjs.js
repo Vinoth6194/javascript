@@ -384,3 +384,4 @@ function over18Index(value, index, array){
     return value > 18;
 }
 document.getElementById("over18Ind").innerHTML = "First element's index of over 18 is "+firstOver18Ind;
+document.getElementById("date").innerHTML = "Today's date is" + new Date();
