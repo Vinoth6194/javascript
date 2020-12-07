@@ -371,3 +371,5 @@ function mySomeFunction(index,value, array){
 document.getElementById("some").innerText = "Result of some() is ->"+someArray;
 var searchArray = ["vinothkumar","vijay","kiru","gurmeet","kiru"];
 document.getElementById("arrIndex").innerHTML = "Index of the searched element is "+searchArray.indexOf("kiru",1);
+document.getElementById("lastarrIndex").innerHTML = "LastIndex of the searched element is "+searchArray.lastIndexOf("kiru",5);
+document.getElementById("searchArray").innerHTML = "Array to be searched  is "+searchArray;
