@@ -224,3 +224,15 @@ function descSorting(){
     fruits.sort();
     document.getElementById("descSort").innerHTML = "After Reverse Sorting : " +fruits.reverse();
 }
+var points = [40, 100, 1, 5, 25, 10];
+document.getElementById("defNumArray").innerHTML = "Default array of numbers " + points;
+function numAscSort()
+{
+    document.getElementById("numAscSort").innerHTML = "Ascending order of the number array " +points.sort(function (a,b){return a-b});;
+
+}
+function numDesSort()
+{
+    document.getElementById("numDesSort").innerHTML = "Descending order of the number array " +points.sort(function (a,b){return b-a});;
+
+}
