@@ -337,4 +337,6 @@ function myFilter (value, index, array){
     return value > 11;
 }
 document.getElementById("ages").innerText = "Array values are " + ages;
-document.getElementById("filArr").innerText = "Filtered values above 11 are "+filterAges;
+document.getElementById("filArr").innerText = "Filtered values above 11 are "+filterAges.sort(function (a,b) {
+    return a-b;
+});
