@@ -241,3 +241,16 @@ function numRanSort()
     document.getElementById("numRanSort").innerHTML = "Random sorting of the number array " +points.sort(function (a,b){return 0.5-Math.random()});
 
 }
+
+function arrLowValue(){
+    function lowValue(arr){
+        return Math.min.apply(null,arr);
+    }
+    document.getElementById("arrLowVal").innerHTML =lowValue(points);
+}
+function arrLHigValue(){
+    function highValue(arr){
+        return Math.max.apply(null,arr);
+    }
+    document.getElementById("arrHigVal").innerHTML =highValue(points);
+}
