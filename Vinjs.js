@@ -385,3 +385,4 @@ function over18Index(value, index, array){
 }
 document.getElementById("over18Ind").innerHTML = "First element's index of over 18 is "+firstOver18Ind;
 document.getElementById("date").innerHTML = "Today's date is" + new Date();
+document.getElementById("dateParams").innerHTML = "DOB is" + new Date(1994,10,6,12,00,00,00);
