@@ -396,3 +396,5 @@ var dateString = new Date().toDateString();
 document.getElementById("dateString").innerHTML = "Date in DateString is  " + dateString;
 var iso = new Date().toISOString();
 document.getElementById("iso").innerHTML = "Date in ISO is  " + iso;
+var isoFormat = new Date("2020-12-26T12:34:06Z");
+document.getElementById("iso_format").innerHTML = "Date in ISO Format is  " + isoFormat;
