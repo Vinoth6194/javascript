@@ -416,3 +416,6 @@ setDate.setDate(11);
 setDate1.setDate(setDate.getDate()+ 100);
 document.getElementById("setDate").innerHTML = "After set date " + setDate;
 document.getElementById("setDate1").innerHTML = "After 100 days from today is " + setDate1;
+var myNum = 6.5;
+document.getElementById("math_object").innerHTML = "Math Obj functions are as follows  ->"+ "<br>"+"PI is " +Math.PI + "<br>" + "<p>"+ "Round is "+ Math.round(myNum)+"<br>"+"Floor is "+ Math.floor(myNum)+"<br>"+"Ceil is "+ Math.ceil(myNum)+"</p>";
+
