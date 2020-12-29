@@ -420,3 +420,5 @@ var myNum = 6.5;
 document.getElementById("math_object").innerHTML = "Math Obj functions are as follows  ->"+ "<br>"+"PI is " +Math.PI + "<br>" + "<p>"+ "Round is "+ Math.round(myNum)+"<br>"+"Floor is "+ Math.floor(myNum)+"<br>"+"Ceil is "+ Math.ceil(myNum)+"</p>";
 document.getElementById("math_ran").innerHTML = "Random Number from 1 to 10 is "+Math.floor(Math.random()*10)+1;
 document.getElementById("math_ran1").innerHTML = "Random Number from 0 to 99 is "+Math.floor(Math.random()*100) ;
+document.getElementById("bool").innerHTML = "For the value of false is" + new Boolean(false) +"<br>" + "For the value of empty string is "+ new Boolean("") +"<br>"+
+    "For the value of undefined is "+ new Boolean(undefined);
