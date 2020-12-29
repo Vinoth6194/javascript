@@ -422,3 +422,7 @@ document.getElementById("math_ran").innerHTML = "Random Number from 1 to 10 is "
 document.getElementById("math_ran1").innerHTML = "Random Number from 0 to 99 is "+Math.floor(Math.random()*100) ;
 document.getElementById("bool").innerHTML = "For the value of false is" + new Boolean(false) +"<br>" + "For the value of empty string is "+ new Boolean("") +"<br>"+
     "For the value of undefined is "+ new Boolean(undefined);
+var xx = 18,yy="aa",zz = "18";
+document.getElementById("comp_1").innerHTML = xx==zz;
+document.getElementById("comp_2").innerHTML = xx===zz;
+document.getElementById("comp_3").innerHTML = xx===yy;
