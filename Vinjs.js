@@ -431,6 +431,8 @@ var currTime = d.getHours();
 console.log(currTime+"-->Your time");
 if(currTime < 12){
     document.getElementById("if_con").innerHTML = "Good Morning"
+}else if(currTime == 00){
+    document.getElementById("if_con").innerHTML = "Exactly 00:00:00"
 }
 else{
     document.getElementById("if_con").innerHTML = "Good Night"
@@ -440,6 +442,9 @@ var currUTCTime = d. getUTCHours();
 console.log(currUTCTime+"-->UTC Time");
 if(currUTCTime > 12){
     document.getElementById("if_con_utc").innerHTML = "Good Night"
+}
+else if(currTime == 00){
+    document.getElementById("if_con_utc").innerHTML = "Exactly 00:00:00"
 }
 else{
     document.getElementById("if_con_utc").innerHTML = "Good Morning"
