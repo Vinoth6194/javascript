@@ -448,5 +448,4 @@ else if(currTime == 00){
 }
 else{
     document.getElementById("if_con_utc").innerHTML = "Good Morning"
-
 }
