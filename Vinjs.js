@@ -426,3 +426,22 @@ var xx = 18,yy="aa",zz = "18";
 document.getElementById("comp_1").innerHTML = xx==zz;
 document.getElementById("comp_2").innerHTML = xx===zz;
 document.getElementById("comp_3").innerHTML = xx===yy;
+var d = new Date();
+var currTime = d.getHours();
+console.log(currTime+"-->Your time");
+if(currTime < 12){
+    document.getElementById("if_con").innerHTML = "Good Morning"
+}
+else{
+    document.getElementById("if_con").innerHTML = "Good Night"
+
+}
+var currUTCTime = d. getUTCHours();
+console.log(currUTCTime+"-->UTC Time");
+if(currUTCTime > 12){
+    document.getElementById("if_con_utc").innerHTML = "Good Night"
+}
+else{
+    document.getElementById("if_con_utc").innerHTML = "Good Morning"
+
+}
