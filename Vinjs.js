@@ -460,7 +460,6 @@ function myForDemo () {
     }
     document.getElementById("demoFor").innerHTML = forText;
 }
-
 function myForInDemo(){
     var forInDemo ={name:"Vinoth",age:"27",city:"Bengaluru"};
     var intext = "";
@@ -470,4 +469,12 @@ function myForInDemo(){
     }
     document.getElementById("forInDemo").innerHTML = intext;
 }
+function myForOfDemo(){
+    var cars = ["BMW", "Volvo", "Mini"];
+    var xCars;
+    for (xCars of cars){
+        text = xCars + "<br >";
+    }
+    document.getElementById("forOfDemo").innerHTML = xCars;
 
+}
