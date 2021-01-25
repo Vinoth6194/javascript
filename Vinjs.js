@@ -547,5 +547,12 @@ document.getElementById("bitLeftShift").innerHTML = res;
 document.getElementById("bitLeftShiftRes").innerHTML = res.toString(2);
 var res2 = num1 << 2;
 document.getElementById("bitLeftShift2").innerHTML = res2;
-
 document.getElementById("bitLeftShiftRes2").innerHTML = res2.toString(2);
+
+document.getElementById("bitRightShiftVal").innerHTML = num1.toString(2);
+var res3 = num1 >>> 1;
+document.getElementById("bitRightShift").innerHTML = res3;
+document.getElementById("bitRightShiftRes").innerHTML = res3.toString(2);
+var res4 = num1 >>> 2;
+document.getElementById("bitRightShift2").innerHTML = res4;
+document.getElementById("bitRightShiftRes2").innerHTML = res4.toString(2);
