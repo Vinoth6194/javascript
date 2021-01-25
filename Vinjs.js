@@ -535,5 +535,8 @@ document.getElementById("bitAndRes").innerHTML = (num1 & num2).toString(2);
 document.getElementById("bitOrVal1").innerHTML = num1.toString(2)
 document.getElementById("bitOrVal2").innerHTML = num2.toString(2)
 document.getElementById("bitOr").innerHTML = num1 | num2;
-
 document.getElementById("bitOrRes").innerHTML = (num1 | num2).toString(2);
+
+document.getElementById("bitNotVal1").innerHTML = num1.toString(2)
+document.getElementById("bitNot").innerHTML = ~num1;
+document.getElementById("bitNotRes").innerHTML = ~num1.toString(2)
