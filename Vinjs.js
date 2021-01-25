@@ -512,5 +512,18 @@ function myBreakDemo(){
     }
     // if(i === 4)
     //    alert("breaked");
-    // document.getElementById("myBreakDemo").innerHTML = text;
+    document.getElementById("myBreakDemo").innerHTML = text;
+}
+function myContinue() {
+    var i;
+    var text = "";
+    for(i=0;i<10;i++){
+        if(i===3){
+            continue;
+        }
+        text = text+ i+"<br>";
+
+    }
+    document.getElementById("myConDemo").innerHTML = text;
+
 }
