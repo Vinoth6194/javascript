@@ -540,3 +540,12 @@ document.getElementById("bitOrRes").innerHTML = (num1 | num2).toString(2);
 document.getElementById("bitNotVal1").innerHTML = num1.toString(2)
 document.getElementById("bitNot").innerHTML = ~num1;
 document.getElementById("bitNotRes").innerHTML = ~num1.toString(2)
+
+document.getElementById("bitLeftShiftVal").innerHTML = num1.toString(2)
+var res = num1 << 1;
+document.getElementById("bitLeftShift").innerHTML = res;
+document.getElementById("bitLeftShiftRes").innerHTML = res.toString(2);
+var res2 = num1 << 2;
+document.getElementById("bitLeftShift2").innerHTML = res2;
+
+document.getElementById("bitLeftShiftRes2").innerHTML = res2.toString(2);
