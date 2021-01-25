@@ -480,3 +480,12 @@ function myWhile() {
     }
     document.getElementById("whileDemo").innerHTML = txt;
 }
+function myDoWhile() {
+    var i=0;
+    var txt = "";
+   do{
+       txt = txt + i+"<br>";
+       i++;
+   }while(i>10);
+    document.getElementById("doWhileDemo").innerHTML = txt;
+}
