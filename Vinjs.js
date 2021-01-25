@@ -449,3 +449,17 @@ else if(currTime == 00){
 else{
     document.getElementById("if_con_utc").innerHTML = "Good Morning"
 }
+function myForDemo () {
+
+    var forDemo = ["Vinothkumar", "Kiruthika", "Sevlvan", "Santhi", "HCL", "Google", "Bangalore", "Salem", "Tirupur"];
+    var i;
+    var forText ="";
+    for (i = 0; i < forDemo.length; i++) {
+        forText = forText + forDemo[i] + "<br>";
+
+    }
+    document.getElementById("demoFor").innerHTML = forText;
+}
+
+
+
