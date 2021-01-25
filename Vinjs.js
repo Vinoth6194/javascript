@@ -525,5 +525,8 @@ function myContinue() {
 
     }
     document.getElementById("myConDemo").innerHTML = text;
-
 }
+var num1= 5,num2 = 1;
+document.getElementById("bitAndVal1").innerHTML = num1.toString(2)
+document.getElementById("bitAndVal2").innerHTML = num2.toString(2)
+document.getElementById("bitAnd").innerHTML = num1 & num2;
