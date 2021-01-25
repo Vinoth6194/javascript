@@ -499,5 +499,18 @@ function myWhile_For_Demo(){
         i++;
     }
     document.getElementById("myWhile_For_Demo").innerHTML = myCar;
+}
+function myBreakDemo(){
+    var i;
+    var text= "";
+    for (i=0;i<10;i++)
+    {
+        if(i === 3)
+        {break;}
+            text = text+i+"<br>";
 
+    }
+    // if(i === 4)
+    //    alert("breaked");
+    // document.getElementById("myBreakDemo").innerHTML = text;
 }
