@@ -530,3 +530,10 @@ var num1= 5,num2 = 1;
 document.getElementById("bitAndVal1").innerHTML = num1.toString(2)
 document.getElementById("bitAndVal2").innerHTML = num2.toString(2)
 document.getElementById("bitAnd").innerHTML = num1 & num2;
+document.getElementById("bitAndRes").innerHTML = (num1 & num2).toString(2);
+
+document.getElementById("bitOrVal1").innerHTML = num1.toString(2)
+document.getElementById("bitOrVal2").innerHTML = num2.toString(2)
+document.getElementById("bitOr").innerHTML = num1 | num2;
+
+document.getElementById("bitOrRes").innerHTML = (num1 | num2).toString(2);
