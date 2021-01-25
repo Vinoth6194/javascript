@@ -489,3 +489,15 @@ function myDoWhile() {
    }while(i>10);
     document.getElementById("doWhileDemo").innerHTML = txt;
 }
+function myWhile_For_Demo(){
+    var myCars = ["BMW","Audi","Lamborghini","Ferrari"];
+    var i=0;
+    var myCar = "";
+    while(myCars[i]){
+
+        myCar = myCar+myCars[i] +"<br>";
+        i++;
+    }
+    document.getElementById("myWhile_For_Demo").innerHTML = myCar;
+
+}
