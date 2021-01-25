@@ -471,3 +471,12 @@ function myForInDemo(){
     document.getElementById("forInDemo").innerHTML = intext;
 }
 
+function myWhile() {
+    var i=0;
+    var txt = "";
+    while (i<10){
+        txt = txt +i+"<br>";
+        i++;
+    }
+    document.getElementById("whileDemo").innerHTML = txt;
+}
