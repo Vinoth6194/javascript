@@ -461,5 +461,13 @@ function myForDemo () {
     document.getElementById("demoFor").innerHTML = forText;
 }
 
-
+function myForInDemo(){
+    var forInDemo ={name:"Vinoth",age:"27",city:"Bengaluru"};
+    var intext = "";
+    var x;
+    for (x in forInDemo){
+        intext = intext+ forInDemo[x] +" ";
+    }
+    document.getElementById("forInDemo").innerHTML = intext;
+}
 
